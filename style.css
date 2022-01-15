@@ -1,0 +1,36 @@
+body{
+    font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 100px;
+}
+.h2{
+    font-size: 50px;
+}
+.journry{
+    display: flex;
+    margin-top: 100px;
+}
+.half-width{
+    width: 500px;
+    padding-left: 10px;
+    
+    
+}
+.half-width img{
+width: 450px;
+margin-left: 150px;
+}
+.half-width h2{
+    border-top: 100px;
+} 
+.link-button{
+    text-decoration: none;
+    background-color: rgb(180, 221, 224);
+    padding: 10px 20px;
+    border-radius: 30px;
+}.half-width h1{
+    font-size: 40px;
+}
+
