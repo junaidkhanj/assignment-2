@@ -1,6 +1,8 @@
 body{
     font-family: 'Caveat', cursive;
 font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding: 0%;
 }
 .container{
     margin: 0 100px;
@@ -9,6 +11,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 50px;
 }
 .journry{
+    justify-content: space-between;
     display: flex;
     margin-top: 100px;
 }
@@ -32,5 +35,64 @@ margin-left: 150px;
     border-radius: 30px;
 }.half-width h1{
     font-size: 40px;
+} .mission h2{
+    text-align: center;
 }
+.mission-info i{
+   color: gold; 
+}
+.my-mission{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
 
+}
+.mission-info{
+    border-radius: 8px;
+   box-shadow: 0 1px 2px 4px gray;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+margin-top: 50px;
+
+
+}
+.the-mission a{
+text-decoration: none;
+margin-right: 200px;
+display: flex;
+justify-content: flex-end;
+margin-bottom: 10px;
+}
+footer{
+  text-align: center;
+  background-color: rgb(6, 6, 63);
+  color: white;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer i{
+    color:aqua ;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*------------------- media queries */
+/* mobile devices */
+@media only screen and(max-width:688px){
+   .journry{
+       display: block;
+   }
+   }
+    
+       
+        
+       
+    }
+    
+}
